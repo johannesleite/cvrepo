@@ -2,6 +2,7 @@ const express = require("express");
 const ejs = require("ejs");
 const en = require('./locales/en.json')
 const no = require('./locales/no.json')
+const port = process.env.PORT || 80
 
 const app = express();
 app.set('view engine', 'ejs');
@@ -15,4 +16,4 @@ app.get('/en', (req, res) => {
   res.render('index', {lang: en})
 })
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.listen(port, () => console.log('App listening'));
