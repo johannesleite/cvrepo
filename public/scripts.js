@@ -1,0 +1,38 @@
+function toggleDarkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    if (element.classList.contains('bg-light')) {
+      element.classList.replace('bg-light', 'bg-dark')
+      localStorage.setItem('isDarkMode', 'true')
+    } else {
+      element.classList.replace('bg-dark', 'bg-light')
+      localStorage.setItem('isDarkMode', 'false')
+    }
+}
+
+function changeLanguage() {
+  if (location.pathname == '/' || location.pathname == '') {
+    location.pathname = '/en'
+  } else {
+    location.assign('/')
+  }
+}
+
+//language image
+
+if (location.pathname == '/en') {
+  document.getElementById('langToggle').src = '/img/langEN.svg'
+
+} else if (location.pathname == '/' || location.pathname == '') {
+  document.getElementById('langToggle').src = '/img/langNO.svg'
+
+}
+
+//localstorage dark mode
+
+if (localStorage.getItem('isDarkMode') === 'true') {
+  document.body.classList.toggle("dark-mode");
+  document.body.classList.replace('bg-light', 'bg-dark')
+} else {
+  document.body.classList.replace('bg-dark', 'bg-light')
+}

@@ -1,0 +1,106 @@
+
+body {
+    color: #121212;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700!important;
+}
+
+.sub h1, .sub h2 {
+    text-decoration: underline 3px;
+    text-decoration-color: #2c59d6;
+}
+
+.container {
+    max-width: 1100px!important;
+}
+
+
+.leftCont {
+    background-color: #1a2238;
+}
+
+.mainCont {
+    background-color: #fff;
+}
+
+#langToggle {
+    width: 32px;
+    margin: 0 6px 13px 0;
+    cursor: pointer;
+}
+
+#langToggle:hover {
+    transform: scale(1.1) rotate(5deg);
+    transition: all .2s ease-in-out;
+}
+
+.dark-mode #langToggle {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(317deg) brightness(103%) contrast(102%);
+}
+
+.fa-moon {
+    padding: 20px 20px 0 0!important;
+    color: #000;
+    cursor: pointer;
+}
+
+.interactive {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.interactive:hover {
+    transform: scale(1.1) rotate(5deg);
+    transition: all .2s ease-in-out;
+}
+
+.cardIcons {
+    color: #fff;
+}
+
+.workIcons {
+    font-size: 50px;
+    padding: 5px 5px 10px 0;
+}
+
+.cardBox {
+    background-color: #1f2e56;
+ }
+
+ .dark-mode .cardBox {
+    background-color: #1e2969;
+ }
+
+/*Dark mode*/
+
+.dark-mode {
+    background: #121212!important;
+    color: #f0f0f0;
+}
+
+.dark-mode .leftCont, .dark-mode .mainCont {
+    background-color: #152642;
+}
+
+ .dark-mode .fa-brands, .dark-mode .fa-solid {
+     color: #f7f7f7;
+ }
+
+ .textGroup {
+     margin-bottom: 7px;
+ }
+
+ .textGroup p {
+     margin-bottom: -2px;
+ }
+
+ .workplace {
+     font-size: 0.9rem;
+ }
+
+body, .bg-body {
+    background-color: #121212!important;
+}
