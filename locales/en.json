@@ -1,8 +1,9 @@
 {
-    "itStudent" : "IT student at University of Agder. Interested in both frontend and backend development.",
+    "itStudent" : "IT student at University of Agder. Interested in frontend development mainly.",
     "experience": "Experience with",
     "work": "Work Experience",
     "current": "current",
+    "bachelor": "Student Intern - Bachelor's assignment",
     "intern": "Student Intern - backend team",
     "social": "Social worker",
     "store": "Store employee",
@@ -18,5 +19,7 @@
     "references": "References",
     "norwegian": "Norwegian, native",
     "english": "English, fluent proficiency",
-    "provided": "Provided upon request"
+    "provided": "Provided upon request",
+    "bachelorTooltip": "Map visualization of sewage sensor data. C# backend -> SignalR -> React TypeScript frontend",
+	"internTooltip": "Test client to send and receive messages with correct response. C# console application, Fiks-IO communication platform"
 }
