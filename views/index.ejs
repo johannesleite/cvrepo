@@ -20,14 +20,14 @@
 
 <body class="bg-light">
     <div class="text-end">
-        <img id="langToggle" src="img/langNO.svg" alt="Velg språk" onclick="changeLanguage()">
+        <img id="langToggle" src="img/langNO.svg" alt="Velg språk" title="Velg språk" onclick="changeLanguage()">
         <i id="darkToggle" class="fa-solid fa-moon interactive" title="Dark mode" onclick="toggleDarkMode()"></i>
     </div>
 
     <div class="container">
         <div class="row justify-content-center">
             <div class="card h-100 me-sm-1 col-sm-3 rounded-0 border-0 p-0 shadow-sm leftCont ">
-                <img src="img/cvjohannessquarelg.jpg" class="card-img-top rounded-0" alt="portrait">
+                <img id="profileImgToggle" src="img/cvjohannessquarelg.jpg" class="card-img-top rounded-0" alt="portrait">
                 <div class="card-body text-center p-0">
                     <p class="card-text cardBox m-0">
                         <a href="https://www.linkedin.com/in/johannesleite/" title="LinkedIn profile"><i class="fa-brands fa-linkedin interactive cardIcons"></i></a>
@@ -67,7 +67,16 @@
                             <p>2023 - <%= lang.current %></p>
                         </div>
                         <div class="col-8">
-                            <p><span data-bs-toggle="tooltip" data-bs-title="<%= lang.bachelorTooltip %>"><strong ><%= lang.bachelor %></strong><sup>🛈</sup></span></p>
+                            <p><span data-bs-toggle="tooltip" data-bs-title="<%= lang.bouvetTooltip %>"><strong><%= lang.bouvet %></strong><sup>🛈</sup></span></p>
+                            <p class="workplace">Bouvet</p>
+                        </div>
+                    </div>
+                    <div class="textGroup row">
+                        <div class="col-4 text-end">
+                            <p>2023 - 2023</p>
+                        </div>
+                        <div class="col-8">
+                            <p><span data-bs-toggle="tooltip" data-bs-title="<%= lang.bachelorTooltip %>"><strong><%= lang.bachelor %></strong><sup>🛈</sup></span></p>
                             <p class="workplace">Norkart AS</p>
                         </div>
                     </div>

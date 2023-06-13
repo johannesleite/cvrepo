@@ -1,5 +1,5 @@
 {
-    "itStudent" : "IT student at University of Agder. Interested in frontend development mainly.",
+    "itStudent" : "Front-end developer passionate about creating good user experiences",
     "experience": "Experience with",
     "work": "Work Experience",
     "current": "current",
@@ -21,5 +21,7 @@
     "english": "English, fluent proficiency",
     "provided": "Provided upon request",
     "bachelorTooltip": "Map visualization of sewage sensor data. C# backend -> SignalR -> React TypeScript frontend",
-	"internTooltip": "Test client to send and receive messages with correct response. C# console application, Fiks-IO communication platform"
+	"internTooltip": "Test client to send and receive messages with correct response. C# console application, Fiks-IO communication platform",
+    "bouvet": "Consultant",
+    "bouvetTooltip": "Will be focusing mostly on front-end development"
 }

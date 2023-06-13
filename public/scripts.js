@@ -4,9 +4,11 @@ function toggleDarkMode() {
     if (element.classList.contains('bg-light')) {
       element.classList.replace('bg-light', 'bg-dark')
       localStorage.setItem('isDarkMode', 'true')
+      document.getElementById('profileImgToggle').src = '/img/cvjohannessquarelgDark.jpg'
     } else {
       element.classList.replace('bg-dark', 'bg-light')
       localStorage.setItem('isDarkMode', 'false')
+      document.getElementById('profileImgToggle').src = '/img/cvjohannessquarelg.jpg'
     }
 }
 
@@ -29,7 +31,6 @@ if (location.pathname == '/en') {
 
 } else if (location.pathname == '/' || location.pathname == '') {
   document.getElementById('langToggle').src = '/img/langNO.svg'
-
 }
 
 //localstorage dark mode
@@ -37,6 +38,8 @@ if (location.pathname == '/en') {
 if (localStorage.getItem('isDarkMode') === 'true') {
   document.body.classList.toggle("dark-mode");
   document.body.classList.replace('bg-light', 'bg-dark')
+  document.getElementById('profileImgToggle').src = '/img/cvjohannessquarelgDark.jpg'
 } else {
   document.body.classList.replace('bg-dark', 'bg-light')
+  document.getElementById('profileImgToggle').src = '/img/cvjohannessquarelg.jpg'
 }

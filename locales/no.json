@@ -1,5 +1,5 @@
 {
-	"itStudent" : "IT-student ved Universitetet i Agder. Interessert i frontendutvikling.",
+	"itStudent" : "frontend-utvikler som brenner for å lage gode brukeropplevelser.",
 	"experience": "Kompetanse",
 	"work": "Arbeidserfaring",
 	"current": "nåværende",
@@ -21,5 +21,7 @@
 	"english": "Engelsk, flytende",
 	"provided": "Oppgis ved forespørsel",
 	"bachelorTooltip": "Visualisering i kart av sensordata knyttet til vann og avløp. C# backend -> SignalR -> React TypeScript frontend",
-	"internTooltip": "Testklient for å sende og motta meldinger med korrekt respons.. C# kommandolinjeapplikasjon, Fiks-IO kommunikasjonsplattform"
+	"internTooltip": "Testklient for å sende og motta meldinger med korrekt respons.. C# kommandolinjeapplikasjon, Fiks-IO kommunikasjonsplattform",
+	"bouvet": "Konsulent",
+	"bouvetTooltip": "Fokus på frontend-utvikling"
 }
