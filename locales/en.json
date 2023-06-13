@@ -1,5 +1,5 @@
 {
-    "itStudent" : "Front-end developer passionate about creating good user experiences",
+    "itStudent" : "Front-end developer passionate about creating good user experiences.",
     "experience": "Experience with",
     "work": "Work Experience",
     "current": "current",
@@ -23,5 +23,6 @@
     "bachelorTooltip": "Map visualization of sewage sensor data. C# backend -> SignalR -> React TypeScript frontend",
 	"internTooltip": "Test client to send and receive messages with correct response. C# console application, Fiks-IO communication platform",
     "bouvet": "Consultant",
-    "bouvetTooltip": "Will be focusing mostly on front-end development"
+    "bouvetTooltip": "Will be focusing mostly on front-end development",
+    "modderTooltip": "Modification of Seiko watches. @Leitemods on Instagram to check them out"
 }
