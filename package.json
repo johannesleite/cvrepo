@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "scripts.js",
-  "homepage": "https://johannesleite.github.io/",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,8 +16,5 @@
   },
   "engines": {
     "node": "18.x"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
